@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <title>Shooter Game</title>
+    <link type="text/css" rel="stylesheet" href="./assets/css/main.css">
+    <link href="./assets/css/main.css.map">
+    <link type="text/css" rel="stylesheet" href="./assets/css/materialdesignicons.css">
+    <link href="./assets/css/materialdesignicons.css.map">
+</head>
+
+<body>
+
+    <div id="app" class="app theme_01">
+
+        <!-- 
+            MENU PAGE
+            
+            Página de menu
+            
+         -->
+        <section id="menu_page" class="full_window active">
+            <!-- Menu page header -->
+            <header class="header">
+                <h1 class="text_center">Shaped Game!</h1 class="text_center">
+                <h2 class="text_center">get in shape!!</h2>
+            </header>
+            <!-- Menu page slider -->
+            <div class="slider">
+                <div class="slider_items">
+                    <div class="slider_item">
+                        <img src="./assets/res/characters/char_03.png" alt="">
+                    </div>
+                    <div class="slider_item">
+                        <img src="./assets/res/characters/char_01.png" alt="">
+                    </div>
+                    <div class="slider_item">
+                        <img src="./assets/res/characters/char_02.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Menu page footer -->
+            <footer class="footer">
+                <a href="game.html" class="btn btn_primary">Get started!</a>
+                <div class="foot_navigation">
+                    <ul class="inline_menu centered">
+                        <li>
+                            <a open-menu="settings">
+                                <span class="mdi mdi-settings"></span>
+                                <span class="label">Settings</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a open-menu="leaderboard">
+                                <span class="mdi mdi-signal"></span>
+                                <span class="label">High Scores</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a open-menu="themes">
+                                <span class="mdi mdi-clipboard-multiple-outline"></span>
+                                <span class="label">Themes</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </section>
+
+
+
+
+        <!-- 
+            PÁGINA DE SETTINGS
+            
+            Página para modificar settings
+            
+         -->
+        <section id="settings_page" class="full_window menus">
+            <!-- Settings header -->
+            <header class="header">
+                <h2>Settings</h2>
+            </header>
+
+            <div class="main">
+                <!-- Settings settings -->
+                <div class="settings">
+                    <div class="setting">
+                        <div class="setting_icon">
+                            <span class="mdi mdi-volume-high"></span>
+                        </div>
+                        <div class="setting_label">
+                            Background music
+                        </div>
+                        <div class="setting_toggle">
+                            <div class="toggle">
+                                <span class="mdi mdi-checkbox-blank-circle"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="setting">
+                        <div class="setting_icon">
+                            <span class="mdi mdi-music-note-eighth"></span>
+                        </div>
+                        <div class="setting_label">
+                            Action sounds
+                        </div>
+                        <div class="setting_toggle">
+                            <div class="toggle">
+                                <span class="mdi mdi-checkbox-blank-circle"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Settings back to menu -->
+            <footer class="footer">
+                <a class="btn btn_primary get_back">Volver al menú</a>
+            </footer>
+        </section>
+
+
+
+
+
+
+
+        <!-- 
+            PÁGINA DE HIGH SCORES
+            
+            Página para meter high scores con PWA
+            
+         -->
+        <section id="leaderboard_page" class="full_window menus">
+            <!-- Leaderboard HighScore -->
+            <section class="hscore">
+                <header class="header">
+                    <h2>High Score</h2>
+                </header>
+                <div class="main">
+                    2014
+                </div>
+            </section>
+
+            <!-- Leaderboard  -->
+            <section class="lboard">
+                <header class="header">
+                    <h2>Leaderboard</h2>
+                </header>
+                <div class="main">
+                    <div class="lboard_table">
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item you">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                        <div class="lboard_item">
+                            <div class="lboard_item_name">Carlos Aparicio</div>
+                            <div class="lboard_item_p">123</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Leaderboard back to menu -->
+            <footer class="footer">
+                <a class="btn btn_primary get_back">Volver al menú</a>
+            </footer>
+        </section>
+
+
+
+
+        <!-- 
+            PÁGINA DE THEMING
+            
+            Página de theming para PWA
+            
+         -->
+        <section id="themes_page" class="full_window menus">
+            <!-- Themes header -->
+            <header class="header">
+                <h2>Themes</h2>
+            </header>
+
+            <!-- Themes options -->
+            <div class="main">
+                <div class="theme_option theme_01 selected">
+                    <div class="theme_option_label">
+                        Fun & Joy Theme
+                    </div>
+                    <div class="theme_option_circles">
+                        <span class="mdi mdi-checkbox-blank-circle color1"></span>
+                        <span class="mdi mdi-checkbox-blank-circle color2"></span>
+                        <span class="mdi mdi-checkbox-blank-circle color3"></span>
+                        <span class="mdi mdi-checkbox-blank-circle colorGray"></span>
+                        <span class="mdi mdi-checkbox-blank-circle colorGrayLight"></span>
+                    </div>
+                </div>
+                <div class="theme_option theme_02">
+                    <div class="theme_option_label">
+                        Warmy theme
+                    </div>
+                    <div class="theme_option_circles">
+                        <span class="mdi mdi-checkbox-blank-circle color1"></span>
+                        <span class="mdi mdi-checkbox-blank-circle color2"></span>
+                        <span class="mdi mdi-checkbox-blank-circle color3"></span>
+                        <span class="mdi mdi-checkbox-blank-circle colorGray"></span>
+                        <span class="mdi mdi-checkbox-blank-circle colorGrayLight"></span>
+                    </div>
+                </div>
+                <div class="theme_option theme_03">
+                    <div class="theme_option_label">
+                        Coldy theme
+                    </div>
+                    <div class="theme_option_circles">
+                        <span class="mdi mdi-checkbox-blank-circle color1"></span>
+                        <span class="mdi mdi-checkbox-blank-circle color2"></span>
+                        <span class="mdi mdi-checkbox-blank-circle color3"></span>
+                        <span class="mdi mdi-checkbox-blank-circle colorGray"></span>
+                        <span class="mdi mdi-checkbox-blank-circle colorGrayLight"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Themes back to menu -->
+            <footer class="footer">
+                <a class="btn btn_primary get_back">Volver al menú</a>
+            </footer>
+        </section>
+
+
+    </div>
+
+    <script src="./app/main.js"></script>
+</body>
+
+</html>
